@@ -1,0 +1,8 @@
+# Python 3.11 or newer is required by the official MCP Python SDK v2.
+Flask>=3.0,<4
+flask-cors>=4.0,<6
+mcp[cli]>=2.0,<3.0
+# Dependencies used by the existing optional microphone assistant (assistant.py).
+SpeechRecognition>=3.10,<4
+pyttsx3>=2.90,<3
+wikipedia>=1.4,<2

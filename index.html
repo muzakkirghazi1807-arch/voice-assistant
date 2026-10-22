@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Jarvis Voice Assistant | Browser-Based Personal Assistant</title>
+
+   <meta name="description" content="Meet Jarvis, a browser-based personal voice assistant. Use voice commands, type requests, search the web, and access your favorite websites.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>JARVIS</h1>
+        <p>Your Personal Voice Assistant</p>
+    </header>
+<main class="container">
+    <section class="assistant-card">
+        <div class="orb">J</div>
+
+        <h2>Hello! I'm Jarvis.</h2>
+        <p class="subtitle">Your personal AI-inspired assistant</p>
+
+        <div id="status">Ready to assist you.</div>
+
+        <button id="listenButton">🎤 Talk to Jarvis</button>
+
+        <p class="hint">
+            You can also type a command below.
+        </p>
+
+        <form id="commandForm">
+            <input
+                type="text"
+                id="commandInput"
+                placeholder="Try: search Python tutorials"
+                autocomplete="off"
+                required
+            >
+            <button type="submit">Send</button>
+        </form>
+
+        <div id="response" aria-live="polite">
+            Your responses will appear here.
+        </div>
+    </section>
+
+    <section class="features">
+        <h2>What can Jarvis do?</h2>
+
+        <div class="feature-grid">
+            <article class="feature">
+                <h3>🔎 Web Search</h3>
+                <p>Search Google using voice or text commands.</p>
+            </article>
+
+            <article class="feature">
+                <h3>🕒 Time</h3>
+                <p>Ask Jarvis for the current time.</p>
+            </article>
+
+            <article class="feature">
+                <h3>▶️ YouTube</h3>
+                <p>Open YouTube with a simple command.</p>
+            </article>
+
+            <article class="feature">
+                <h3>📚 Wikipedia</h3>
+                <p>Find information about people and topics.</p>
+            </article>
+        </div>
+    </section>
+
+    <section class="about">
+        <h2>About this project</h2>
+        <p>
+            Jarvis is a personal assistant project built with Python.
+            This website provides a browser-based interface for trying
+            its basic features.
+        </p>
+        <a
+            href="https://github.com/muzakkirghazi1807-arch/voice_assisstant"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            View source code on GitHub ↗
+        </a>
+    </section>
+</main>
+
+<footer>
+    <p>Jarvis Voice Assistant · Built with curiosity and code.</p>
+</footer>
+
+<script src="script.js?v=2"></script>
+</body>
+</html>
+
